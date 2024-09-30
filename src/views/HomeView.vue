@@ -1,6 +1,5 @@
 <script setup>
 import { onMounted } from 'vue';
-// import MainView from './MainView.vue';
 import MainLayout from '@/components/MainLayout.vue'
 
 import Typed from 'typed.js';
