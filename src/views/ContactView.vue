@@ -1,11 +1,11 @@
 <script setup>
-import MainView from './MainView.vue';
+// import MainView from './MainView.vue';
 
-
+import MainLayout from '@/components/MainLayout.vue';
 </script>
 
 <template>
-  <MainView>
+  <MainLayout>
     <div class="  dark:border-[#212425] dark:border-2 mb-16  md:p-[48px]  p-4   bg-color-810 rounded-xl dark:bg-[#111111] mb-[30px] md:mb-[60px]">
       <h2 class="after-effect after:left-56 HeadingFontStyle text-[2.5rem] font-bold capitalize animate-text">My Service</h2>
       <p class=" dark:text-white text-[0.9rem] HeadingFontStyle font-bold mt-2">Let's Talk About Ideas</p>
@@ -27,7 +27,7 @@ import MainView from './MainView.vue';
       </div>
   </form>
   </div>
-  </MainView>
+  </MainLayout>
 </template>
 
 <style scoped>

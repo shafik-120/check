@@ -1,9 +1,10 @@
 <script setup>
 import MainView from './MainView.vue';
+import MainLayout from '@/components/MainLayout.vue';
 </script>
 
 <template>
-  <MainView>
+  <MainLayout>
     <div class="">
       
         <div class="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14">
@@ -70,7 +71,7 @@ import MainView from './MainView.vue';
         </section>
       
     </div>
-  </MainView>
+  </MainLayout>
 </template>
 
 <style scoped>

@@ -1,6 +1,7 @@
 <script setup>
 import { reactive, ref } from 'vue'
-import MainView from './MainView.vue';
+// import MainView from './MainView.vue';
+import MainLayout from '@/components/MainLayout.vue';
 
 const serviceData = reactive([
     {
@@ -39,7 +40,7 @@ const serviceData = reactive([
 </script>
 
 <template>
-<MainView>
+<MainLayout>
     <div class="container px-4 sm:px-5 md:px-10 lg:px-14">
     <div class="py-12">
         <h2 class="after-effect after:left-52 HeadingFontStyle text-[2.5rem] font-bold capitalize animate-text">My Service</h2>
@@ -55,7 +56,7 @@ const serviceData = reactive([
         </div>
     </div>
 </div>
-</MainView>
+</MainLayout>
 </template>
 
 <style scoped>

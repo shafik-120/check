@@ -8,7 +8,7 @@
         <img src="https://avatars.githubusercontent.com/u/134792008?v=4" alt="Md Shafikul Islam" class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]" style="color: transparent;" width="240" height="240"> 
         <div class="pt-[100px] pb-8">
           <h1 class="mt-6 mb-1 text-5xl font-semibold dark:text-white">Md Shafikul Islam</h1>
-          <h3 class="mb-4 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-[#A6A6A6] ">Frontend Web Design & Developer</h3>
+          <h3 class="mb-4 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-[#A6A6A6] ">BackEnd Web Design & Developer</h3>
           <div class="flex justify-center space-x-3">
             <a href="https://www.facebook.com/mdshafikulislam11" target="_blank" rel="noopener noreferrer">
                 <span class="socialbtn text-[#1773EA]">

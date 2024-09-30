@@ -2,12 +2,12 @@
 //import { ref, reactive } from 'vue'
 //import  from '.'
 import MainViewVue from './MainView.vue';
-
+import MainLayout from '@/components/MainLayout.vue';
 </script>
 
 <template>
     <div class="">
-        <MainViewVue>
+        <MainLayout>
             <div class="container px-4 sm:px-5 md:px-10 lg:px-14">
                 <div class="py-12">
                     <h2 class="after-effect after:left-40 HeadingFontStyle text-[2.5rem] font-bold capitalize animate-text">My Blog</h2>
@@ -16,7 +16,7 @@ import MainViewVue from './MainView.vue';
                     </div>
                 </div>
             </div>
-        </MainViewVue>
+        </MainLayout>
     </div>
 </template>
 

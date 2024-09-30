@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted } from 'vue';
-import MainView from './MainView.vue';
+// import MainView from './MainView.vue';
+import MainLayout from '@/components/MainLayout.vue'
 
 import Typed from 'typed.js';
 
@@ -20,7 +21,7 @@ onMounted(() => {
 
 <template>
     <div class="">
-         <MainView>
+         <MainLayout>
             <div class="container px-4 sm:px-5 md:px-10 lg:px-14">
                 <div class="py-12">
                     <h2 class="HeadingFontStyle text-[2.5rem] font-bold capitalize animate-text">I Am A  <span id="your-element-id"></span></h2>
@@ -30,21 +31,10 @@ onMounted(() => {
                     </div>
                 </div>
             </div>
-         </MainView>
+         </MainLayout>
     </div>
 </template>
 
 <style scoped>
-
-#custom-cursor {
-  position: fixed;
-  width: 20px;
-  height: 20px;
-  background-color: #000;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  z-index: 9999;
-}
 
 </style>

@@ -1,9 +1,10 @@
 <script setup>
-import MainView from "./MainView.vue";
+// import MainView from "./MainView.vue";
+import MainLayout from '@/components/MainLayout.vue';
 </script>
 
 <template>
-  <MainView>
+  <MainLayout>
     <div class="container px-4 sm:px-5 md:px-10 lg:px-14">
       <div class="py-12">
         <h2 class="after-effect after:left-60 HeadingFontStyle text-[2.5rem] font-bold capitalize animate-text">My Portfolio</h2>
@@ -13,7 +14,7 @@ import MainView from "./MainView.vue";
         </div>
       </div>
     </div>
-  </MainView>
+  </MainLayout>
 </template>
 
 <style scoped></style>

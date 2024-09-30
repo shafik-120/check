@@ -1,6 +1,7 @@
 <script setup>
 import { reactive } from 'vue'
-import MainView from './MainView.vue';
+// import MainView from './MainView.vue';
+import MainLayout from '@/components/MainLayout.vue';
 
 const skillData = reactive([
     {
@@ -112,7 +113,7 @@ const otherKnowledge = reactive([
 </script>
 
 <template>
-<MainView>
+<MainLayout>
     <div class="container px-4 sm:px-5 md:px-10 lg:px-14">
     <div class="py-12">
         <h2 class="after-effect after:left-52 HeadingFontStyle text-[2.5rem] font-bold capitalize animate-text">My Skill</h2>
@@ -153,7 +154,7 @@ const otherKnowledge = reactive([
        </div>
     </div>
 </div>
-</MainView>
+</MainLayout>
 </template>
 
 <style scoped>
